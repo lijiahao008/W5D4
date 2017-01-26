@@ -16,9 +16,7 @@ class Clock {
   }
 
   printTime(hours, minutes, seconds) {
-    if (this.seconds < 10) {
-      this.seconds = `0${this.seconds}`;
-    }
+    
     console.log (`${this.hours}:${this.minutes}:${this.seconds}`);
     // Format the time in HH:MM:SS
     // Use console.log to print it.
